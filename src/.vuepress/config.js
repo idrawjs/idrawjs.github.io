@@ -15,6 +15,7 @@ module.exports = {
     },
   },
   themeConfig: {
+    search: false,
     nav: [],
     repo: 'idrawjs/idraw',
     docsRepo: 'idrawjs/idraw',
