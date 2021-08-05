@@ -3,6 +3,8 @@ const path = require('path');
 
 const pageDir = path.join(__dirname, '..', 'docs');
 const distDir = path.join(__dirname, '..', 'src', '.vuepress', 'dist');
+const cnameFilePath = path.join(pageDir, 'CNAME');
+
 if (fs.existsSync(pageDir)) {
   removeFullDir(pageDir);
 }
@@ -45,6 +47,7 @@ function copyDir(src, dist, callback) {
     if(err){
       fs.mkdirSync(dist);
     }
+    fs.writeFileSync(cnameFilePath, 'idraw.js.org');
     _copy(null, src, dist);
   });
 
