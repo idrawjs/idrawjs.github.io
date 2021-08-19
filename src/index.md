@@ -20,7 +20,8 @@
 </p>
 
 <div class="home-btn-group">
-  <a class="home-btn" href="https://idrawjs.github.io/docs/en/guide/introduction.html">What is iDraw.js</a>
+  <a class="home-btn  home-btn-primary" href="https://idrawjs.github.io/studio/">Online Studio</a>
+  <a class="home-btn" href="https://idrawjs.github.io/playground/">Online Playground</a>
   <a class="home-btn home-btn-primary" href="https://idrawjs.github.io/docs/">GET STARTED</a>
   <a class="home-btn" target="_blank" href="https://github.com/idrawjs/idraw/">GitHub</a>
 </div>

@@ -16,7 +16,8 @@
 </p>
 
 <div class="home-btn-group">
-  <a class="home-btn" href="https://idrawjs.github.io/docs/zh/guide/introduction.html">iDraw.js是什么？</a>
+  <a class="home-btn home-btn-primary" href="https://idrawjs.github.io/studio/">在线Studio演示</a>
+  <a class="home-btn" href="https://idrawjs.github.io/playground/">在线Playground</a>
   <a class="home-btn home-btn-primary" href="https://idrawjs.github.io/docs/zh/">快速开始</a>
   <a class="home-btn" target="_blank" href="https://github.com/idrawjs/idraw/">GitHub</a>
 </div>
