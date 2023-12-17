@@ -1,13 +1,26 @@
 const fs = require('fs');
 const path = require('path');
 
+const cnameFile = path.join(__dirname, '..', 'CNAME');
+const docsCnameFile = path.join(__dirname, '..', 'docs', 'CNAME');
+
+const cname = fs.readFileSync(cnameFile);
+fs.writeFileSync(docsCnameFile, cname);
+console.log('Copy CNME success!');
+
 const fromDist = path.join(__dirname, '..', 'src', 'assets');
 const toDir = path.join(__dirname, '..', 'docs', 'assets');
 
 // fixPageAssetsPath();
 copyDir(fromDist, toDir, () => {
   console.log('Copy files success!');
+
+
+  // copyDir(cnameFile, docsCnameFile, () => {
+  //   console.log('Copy CNAME success!');
+  // });
 });
+
 
 // function fixPageAssetsPath() {
 //   const htmlPath = path.join(distDir, 'index.html');
