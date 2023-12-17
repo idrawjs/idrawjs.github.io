@@ -1,16 +1,19 @@
 {
+  "version": "0.0.1",
   "scripts": {
-    "docs:dev": "vuepress dev src",
-    "docs:build": "vuepress build src",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
     "dev": "npm run docs:dev",
-    "build": "npm run docs:build && node ./scripts/after-build.js"
+    "build": "npm run docs:build && node ./scripts/after-build.js",
+    "docs:preview": "vitepress preview"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idrawjs/idrawjs.github.io.git"
+    "url": "git+https://github.com/idrawjs/docs.git"
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "prettier": "^3.1.1",
+    "vitepress": "1.0.0-rc.31"
   }
 }

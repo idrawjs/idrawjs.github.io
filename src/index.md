@@ -1,37 +1,28 @@
-<style>
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-</style>
+hero:
+  name: 'iDraw.js'
+  text: 'Drawing easier on the web.'
+  tagline: A simple JavaScript framework for Drawing on the web.
+  actions:
+    - theme: brand
+      text: English Documents
+      link: https://idraw.js.org/docs/en-US/
+    - theme: brand
+      text: 中文文档
+      link: https://idraw.js.org/docs/zh-CN/
+    - theme: alt
+      text: iDraw Studio
+      link: https://idraw.js.org/studio/
+  image: /assets/idraw.png
 
-<h1 align="center">iDraw.js</h1>
-
-<p align="center" style="font-size:28px;">A simple JavaScript framework for Drawing on the web</p>
-
-<p align="center">
-  <a title="CI" href="https://github.com/idrawjs/idraw/actions/workflows/node.js.yml">
-    <img src="https://github.com/idrawjs/idraw/actions/workflows/node.js.yml/badge.svg?branch=main" alt="CI">
-  </a>
-
-  <a href="https://www.npmjs.com/package/idraw">
-    <img src="https://img.shields.io/npm/v/idraw.svg?sanitize=idraw" alt="Version">
-  </a>
-  <a href="https://www.npmjs.com/package/idraw">
-    <img src="https://img.shields.io/npm/l/idraw.svg?sanitize=true" alt="License">
-  </a>
-</p>
-
-<div class="home-btn-group">
-  <a class="home-btn  home-btn-primary" href="https://idrawjs.github.io/studio/">Online Studio</a>
-  <a class="home-btn" href="https://idrawjs.github.io/playground/">Online Playground</a>
-  <a class="home-btn home-btn-primary" href="https://idrawjs.github.io/docs/">GET STARTED</a>
-  <a class="home-btn" target="_blank" href="https://github.com/idrawjs/idraw/">GitHub</a>
-</div>
-
-
-<br/>
-<div>
-  <iframe 
-    src="https://idraw.js.org/playground/?demo=basic&header=false&sider=false&default-editor-split=37" 
-    width="1000" height="450" frameborder="no" border="0"
-    style="border: 1px solid #cecece"
-  ></iframe>
-</div>
+features:
+  - title: High web compatibility
+    details: All based on Canvas 2D API drawing
+  - title: Extremely simple way to use
+    details: There are no complicated operations, only a few simple APIs for drawing operations
+  - title: Data-Driven drawing
+    details: Rely on data to control drawing operations
+---
