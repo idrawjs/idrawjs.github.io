@@ -9,13 +9,13 @@ hero:
   actions:
     - theme: brand
       text: English Documents
-      link: https://idraw.js.org/docs/en-US/
+      link: https://idrawjs.com/docs/en-US/
     - theme: brand
       text: 中文文档
-      link: https://idraw.js.org/docs/zh-CN/
+      link: https://idrawjs.com/docs/zh-CN/
     - theme: alt
       text: iDraw Studio
-      link: https://idraw.js.org/studio/
+      link: https://idrawjs.com/studio/
   image: /assets/idraw.png
 
 features:
