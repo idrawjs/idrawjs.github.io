@@ -15,6 +15,7 @@ export default defineConfig({
     i18nRouting: true,
     nav: [
       { text: 'Documents', link: 'https://idrawjs.com/docs/' },
+      { text: 'Sponsor', link: 'https://idrawjs.com/docs/en-US/sponsor' },
       { text: 'Playground', link: 'https://idrawjs.com/playground/' }
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/idrawjs/idraw' }]
